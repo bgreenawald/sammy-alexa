@@ -1,0 +1,37 @@
+{
+  "session": {
+    "sessionId": "SessionId.c88baf2e-12c9-4b88-b7bb-45e3e79edd85",
+    "application": {
+      "applicationId": "amzn1.ask.skill.c3c31cb9-1291-4aea-9d99-1d9d8114086c"
+    },
+    "attributes": {},
+    "user": {
+      "userId": "amzn1.ask.account.AHZNJFD2JUJRPJDKX5LWFUYN6MKCU53ZNDUXGBTZDODXGUUNDGPXYSJWC3MGTZQ7X7I5S5FGFLPCVKXYN53YE2M55BUEPV4KD3L5JKMJ7YUPUK6Q6AJOUS4M6RFLKSKSLG4AHRA6XJRDKCFIY2GMAN5VNHQ3GMLFHP36LL3H6UWCIBX343NNFPOUXKV4SJNC6HHXZXWLA3LQXAQ"
+    },
+    "new": true
+  },
+  "request": {
+    "type": "IntentRequest",
+    "requestId": "EdwRequestId.b55ef1d6-6169-4270-9491-487e93fbb9a6",
+    "locale": "en-US",
+    "timestamp": "2017-06-21T19:41:41Z",
+    "intent": {
+      "name": "GetCourseAvailability",
+      "slots": {
+        "CompAv": {
+          "name": "CompAv",
+	  "value": "lab"
+        },
+        "CourseNumAv": {
+          "name": "CourseNumAv",
+          "value": "2150"
+        },
+        "DeptIDAv": {
+          "name": "DeptIDAv",
+          "value": "cs"
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}
